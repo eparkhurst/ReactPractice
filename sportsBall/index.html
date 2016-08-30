@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sports Ball</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://fb.me/react-15.3.0.js"></script>
+    <script src="https://fb.me/react-dom-15.3.0.js"></script>
+    <script type="text/javascript">
+      const App = React.createClass({
+        getInitialState:function(){
+          return {city:''}
+        },
+        handleChange:function(event){
+          const newCity = event.target.value
+          this.setState({city:newCity})
+        },
+        render: function(){
+          let message;
+          if(this.state.city === ''){
+            message = "Go Ahead, Type a City"
+          }
+          else if(this.state.city.toLowerCase() === 'denver'){
+            message = 'Go Broncos'
+          }
+          else{
+            message = this.state.city+"?  Never Heard of it"
+          }
+          return React.createElement('div',null,
+            React.createElement('h1', null, "What's your favorite City?"),
+            React.createElement('input',{
+              type:"text",
+              onChange: this.handleChange
+            }),
+            React.createElement('h3',null, message)
+          )
+        }
+      })
+      ReactDOM.render(React.createElement(App),document.getElementById('app'))
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Practice</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://fb.me/react-15.3.0.js"></script>
+    <script src="https://fb.me/react-dom-15.3.0.js"></script>
+
+    <script>
+      const App = React.createClass({
+        getInitialState: function() {
+          return { who: 'Eli' };
+        },
+        handleChange: function(event){
+          const nextWho = event.target.value
+          this.setState({who:nextWho})
+        },
+        render:function(){
+          let message;
+
+          if(this.state.who.trim() === ''){
+            message = "Hello?"
+          }
+          else{
+            message = "Hello "+this.state.who
+          }
+          return React.createElement('div',null,
+            React.createElement('h1', null, message + this.state.who),
+            React.createElement('input', {
+              onChange:this.handleChange,
+              type:'text',
+              value:this.state.who})
+          )
+        }
+      })
+      ReactDOM.render(React.createElement(App), document.getElementById('app'));
+    </script>
+  </body>
+</html>
