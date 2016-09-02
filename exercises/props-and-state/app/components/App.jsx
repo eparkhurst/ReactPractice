@@ -1,5 +1,5 @@
 import React from 'react';
-import Track from 'components/track';
+import Track from './Track';
 
 const App = React.createClass({
   getInitialState() {
