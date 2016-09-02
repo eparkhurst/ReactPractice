@@ -1,6 +1,6 @@
 #### [⇐ Previous](synthetic-events.md) | [Table of Contents](README.md#table-of-contents) | [Next ⇒](component-life-cycle.md)
 
-# Props and State
+# Stateful and Stateless components
 
 ### Objectives
 

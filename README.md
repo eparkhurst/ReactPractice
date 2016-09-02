@@ -9,7 +9,7 @@ The goal of this curriculum is to teach you how to build real-world React applic
 1. [Introduction to React](introduction-to-react.md)
 1. [React Tools](react-tools.md)
 1. [Synthetic Events](synthetic-events.md)
-1. [Props and State](props-and-state.md)
+1. [Stateful and Stateless components](stateful-and-stateless.md)
 1. [Component Life Cycle](component-life-cycle.md)
 1. [Refs](refs.md)
 1. [Immutable Models](immutable-models.md)
