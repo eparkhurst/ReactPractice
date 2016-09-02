@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = React.createClass({
+const Mouse = React.createClass({
   getInitialState() {
     return {
       clicks: 0,
@@ -55,6 +55,6 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-  <App />,
+  <Mouse />,
   document.getElementById('app')
 );

@@ -11,8 +11,15 @@ module.exports = {
 
     stylesheets: {
       joinTo: {
-        'app.css': /^app\//
+        'app.css': /^app\//,
+        'vendor.css': /^node_modules\//
       }
+    }
+  },
+
+  npm: {
+    styles: {
+      'normalize.css': ['normalize.css']
     }
   },
 
@@ -23,6 +30,6 @@ module.exports = {
   },
 
   server: {
-    port: 8000
+    port: Number.parseInt(process.env.PORT) || 8000
   }
 };

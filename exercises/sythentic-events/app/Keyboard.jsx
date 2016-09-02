@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = React.createClass({
+const Keyboard = React.createClass({
   getInitialState() {
     return { events: [], value: '' };
   },
@@ -58,6 +58,6 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-  <App />,
+  <Keyboard />,
   document.getElementById('app')
 );

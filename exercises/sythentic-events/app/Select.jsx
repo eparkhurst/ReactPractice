@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = React.createClass({
+const Select = React.createClass({
   getInitialState() {
     return { value: 'B' };
   },
@@ -50,6 +50,6 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-  <App />,
+  <Select />,
   document.getElementById('app')
 );

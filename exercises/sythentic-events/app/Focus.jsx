@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = React.createClass({
+const Focus = React.createClass({
   getInitialState() {
     return { value: "I'm blurred :(" };
   },
@@ -31,6 +31,6 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-  <App />,
+  <Focus />,
   document.getElementById('app')
 );

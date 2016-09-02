@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = React.createClass({
+const Checkbox = React.createClass({
   getInitialState() {
     return { checked: false };
   },
@@ -52,6 +52,6 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-  <App />,
+  <Checkbox />,
   document.getElementById('app')
 );
