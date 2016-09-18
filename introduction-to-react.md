@@ -203,7 +203,7 @@ Type out the above code example *by hand* and then run it. No copy-and-paste che
 </div>
 ```
 
-In your own words, write down how React works in as much detail as you can. No peaking in the next section either. The point is to make a guess now and see how close you are later. At this stage, being right or wrong doesn't matter.
+In your own words, write down how React works in as much detail as you can. No peeking in the next section either. The point is to make a guess now and see how close you are later. At this stage, being right or wrong doesn't matter.
 
 ### How does React work?
 
@@ -229,7 +229,7 @@ The `ReactDOM.render()` function uses the `ReactElement` to create a component h
 
 **NOTE:** You'll learn how React uses a reconciliation algorithm to efficiently update the contents of the `DOMElement` later.
 
-To help learn how React works, the code example from above is extra explicit about the input and output of each React function. In a production application, the same code would be written like this.
+To help you learn how React works, the code example from above is extra explicit about the input and output of each React function. In a production application, the same code would be written like this.
 
 ```html
 <script>

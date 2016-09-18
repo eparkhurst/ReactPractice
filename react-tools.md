@@ -17,7 +17,7 @@
 
 ## What's React JSX?
 
-[JSX](https://facebook.github.io/jsx/), or JavaScript XML, is an JavaScript syntax extension that looks similar to HTML. [React JSX](https://facebook.github.io/react/docs/jsx-in-depth.html) lets you create `ReactElement` objects using an HTML-like syntax and a transpiler.
+[JSX](https://facebook.github.io/jsx/), or JavaScript XML, is a JavaScript syntax extension that looks similar to HTML. [React JSX](https://facebook.github.io/react/docs/jsx-in-depth.html) lets you create `ReactElement` objects using an HTML-like syntax and a transpiler.
 
 For example, when the following React JSX code is run through a transpiler:
 
@@ -512,7 +512,7 @@ const App = React.createClass({
 export default App;
 ```
 
-Save the file and switch back to the browser. Play around with the user interface and, once everything is working, pat yourself on back. You've just written your first React JSX user interface!
+Save the file and switch back to the browser. Play around with the user interface and, once everything is working, pat yourself on the back. You've just written your first React JSX user interface!
 
 ## What are the React Developer Tools?
 
@@ -594,7 +594,7 @@ ReactDOM.render(
 );
 ```
 
-Switch back to the browser and voilà! Now, the user interface now has two distinct and isolated component hierarchies.
+Switch back to the browser and voilà! Now, the user interface has two distinct and isolated component hierarchies.
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/315/FD5CCC3E-152C-4CC4-932C-256EF93E1FC3-570-0000D28E7B9AEFEA.gif)
 
