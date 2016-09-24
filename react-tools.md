@@ -84,6 +84,15 @@ Additionally, the [language-babel](https://atom.io/packages/language-babel) pack
 1. Search for the `language-babel` package in the main screen.
 1. And click on its "Install" button.
 
+If you have Emmet installed and you would like to use its functionality inside of `.jsx` files simply:
+
+1) Click Atom -> Keymap
+2) When the file `keymap.cson` pops up, paste this code at the bottom: 
+```
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+```
+
 ### Exercise
 
 Turn to a neighbor and, in your own words, explain what React JSX is as well as the similarities and differences of a compiler versus a transpiler. After about a minute, your instructor will cold call on the class and ask what was discussed.
