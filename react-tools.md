@@ -89,9 +89,11 @@ If you have Emmet installed and you would like to use its functionality inside o
 1) Click Atom -> Keymap
 2) When the file `keymap.cson` pops up, paste this code at the bottom: 
 ```
-'atom-text-editor[data-grammar="source jsx"]:not([mini])':
-  'tab': 'emmet:expand-abbreviation-with-tab'
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'shift-tab': 'emmet:expand-abbreviation-with-tab'
 ```
+
+Now you can press shift and tab to expand regular text into HTML tags inside of `.jsx` files! You can change the particular key mapping to whatever you choose by changing `shift-tab` to whatever keys you'd prefer.
 
 ### Exercise
 
