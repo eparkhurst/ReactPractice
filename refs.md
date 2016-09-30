@@ -41,7 +41,6 @@ Let's revisit our typing assignment and refactor to use refs!
             <h1>{this.state.text}</h1>
             <input ref="textInput" id="typing" type="text" onKeyUp={this.changeText} autoFocus/>
             <button onClick={this.clearText}>Clear Text</button>
-
           </div>
         );
       }
