@@ -1,9 +1,8 @@
-import App from 'components/App';
-import TextField from 'components/TextField';
+import App from './components/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  <TextField />,
+  <App />,
   document.getElementById('app')
 );
