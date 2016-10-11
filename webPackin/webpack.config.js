@@ -1,4 +1,4 @@
-module.exports = {
+ module.exports = {
     // where we start bundling our code
     entry: './js/index.js',
     // where it gets output to (what our script tag will link to)
